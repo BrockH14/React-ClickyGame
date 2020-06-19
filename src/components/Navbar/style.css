@@ -1,0 +1,36 @@
+.navbar {
+    background-color: teal;
+    position: fixed;
+    width: 100%;
+    color: white;
+    white-space: nowrap;
+    font-size: 3rem;
+  }
+  .navbar ul {
+    margin: 0;
+    padding: 0;
+  }
+  .navbar li {
+    display: inline-block;
+    margin-right: 20px;
+    text-shadow: 2px 2px 0 #000;
+    text-align: center;
+  }
+  .navbar a {
+    text-decoration: none;
+    text-shadow: 2px 2px 0 #000;
+    color: white;
+    font-weight: 900;
+  }
+  @media (max-width: 420px) {
+    .navbar li:first-child {
+      width: 25%;
+    }
+    .navbar li:nth-child(2) {
+      width: 35%;
+    }
+    .navbar li:last-child {
+      width: 40%;
+    }
+  }
+  
