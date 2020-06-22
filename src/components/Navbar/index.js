@@ -10,9 +10,9 @@ function Navbar(props) {
           <li className="brand">
             <a href="/">Clicky Game</a>
           </li>
-          <NavMes score={props.score} topScore={props.topScore} />
+          <NavMes score={props.score} highScore={props.highScore} />
           <li>
-            Score: {props.score} | Top Score: {props.topScore}
+            Score: {props.score} | Top Score: {props.highScore}
           </li>
         </ul>
       </nav>

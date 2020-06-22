@@ -3,8 +3,7 @@ import Navbar from "../Navbar";
 import Header from "../Header";
 import Wrapper from "../Wrapper";
 import Card from "../Card";
-import data from "../../friends.json";
-
+import data from "../../avatar.json";
 
 class Game extends Component {
     state = {
@@ -12,11 +11,11 @@ class Game extends Component {
       score: 0,
       highScore: 0
     };
-  
+    
     componentDidMount() {
       this.setState({ data: this.shuffleData(this.state.data) });
     }
-  
+
     handleCorGuess = newData => {
       const { highScore, score } = this.state;
       const newScore = score + 1;
