@@ -12,7 +12,7 @@ function Navbar(props) {
           </li>
           <NavMes score={props.score} highScore={props.highScore} />
           <li>
-            Score: {props.score} | Top Score: {props.highScore}
+            Score: {props.score} | High Score: {props.highScore}
           </li>
         </ul>
       </nav>
